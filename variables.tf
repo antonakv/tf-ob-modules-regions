@@ -1,8 +1,3 @@
-variable "vpc_id" {
-  type        = string
-  description = "AWS VPC id"
-}
-
 variable "region1" {
   type        = string
   description = "aws region 1"
