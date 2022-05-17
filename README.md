@@ -73,7 +73,7 @@ commands will detect it and remind you to do so if necessary.
 - Run `terraform apply`
 
 ```
-$ terraform apply  
+$ terraform apply
 
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
   + create
@@ -138,13 +138,13 @@ Do you want to perform these actions?
 
 module.aws1.aws_vpc.vpc: Creating...
 module.aws2.aws_vpc.vpc: Creating...
-module.aws1.aws_vpc.vpc: Creation complete after 1s [id=vpc-007c2cd7b18d5dc09]
-module.aws2.aws_vpc.vpc: Creation complete after 1s [id=vpc-09e6dc818684e130a]
+module.aws1.aws_vpc.vpc: Creation complete after 1s [id=vpc-076da6c4d5ceae1be]
+module.aws2.aws_vpc.vpc: Creation complete after 1s [id=vpc-07c97edcefe44ddef]
 
 Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 
 Outputs:
 
-vpc_id_1 = "vpc-007c2cd7b18d5dc09"
-vpc_id_2 = "vpc-09e6dc818684e130a"
+vpc_id_1 = "vpc-076da6c4d5ceae1be"
+vpc_id_2 = "vpc-07c97edcefe44ddef"
 ```
